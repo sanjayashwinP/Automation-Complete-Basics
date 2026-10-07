@@ -1,6 +1,6 @@
-<img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/ce08383a-c89c-4a32-b938-c05da6c325b2" /># Automation-Complete-Basics
+# Automation-Complete-Basics
 
-### Question
+### Problem Statement
 
 You can use a demo shopping website such as SauceDemo (Swag Labs) for login, product, cart, and checkout exercises. For alert, mouse, drag-and-drop, and dynamic-element exercises, a dedicated Selenium demo site is more suitable because SauceDemo does not provide all those interactions.
 
@@ -17,6 +17,7 @@ TC09	Customer completes checkout and waits until the Place Order button becomes 
 TC10	Customer completes the purchase and waits for the order confirmation popup	Alert Wait	Confirmation alert is handled successfully
 
 ### Code
+```
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
@@ -157,7 +158,7 @@ alert.accept()
 
 print("Prompt submitted successfully")
 
-# TC05 - MOUSE HOVER
+#### TC05 - MOUSE HOVER
 
 print("\nTC05 - Mouse Hover")
 
@@ -384,7 +385,9 @@ driver.quit()
 print("Browser closed")
 
 input("Press Enter to exit...")
+```
 
+### Output
 <img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/4ffbf21a-35fa-402c-80bb-3fba17c3f5a7" />
 <img width="1912" height="735" alt="image" src="https://github.com/user-attachments/assets/83b8b228-48b2-442b-8715-68f0f338f6a5" />
 <img width="1917" height="988" alt="image" src="https://github.com/user-attachments/assets/5a9398c3-7581-4681-8bbf-0e6561b209cf" />
