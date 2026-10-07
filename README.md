@@ -5,7 +5,9 @@
 You can use a demo shopping website such as SauceDemo (Swag Labs) for login, product, cart, and checkout exercises. For alert, mouse, drag-and-drop, and dynamic-element exercises, a dedicated Selenium demo site is more suitable because SauceDemo does not provide all those interactions.
 
 Test Case	Shopping Scenario	Selenium Concept	Expected Result
+
 TC01	Open the online shopping website	driver.get()	Shopping website opens successfully
+
 TC02	Customer clicks Delete/Remove Product and confirmation popup appears	Alert – accept()	Product deletion is confirmed
 TC03	Customer clicks Delete/Remove Product but chooses Cancel	Alert – dismiss()	Product remains in the cart
 TC04	Customer enters a name/coupon/customer information in a prompt popup	Prompt – send_keys()	Entered information is submitted successfully
